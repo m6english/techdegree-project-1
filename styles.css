@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: rgb(168, 168, 168);
 }
 /* Link Styles */
 
@@ -52,7 +52,8 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: white;
+  transform: scale(1.4);  
 }
 
 header {
@@ -163,6 +164,7 @@ a.github {
 }
 a.social:hover {
   opacity: 1;
+  transform: scale(1.4);
 }
 .clearfix {
   clear: both;
